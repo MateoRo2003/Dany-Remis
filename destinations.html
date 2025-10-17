@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Destinos</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Tour
+  * Template URL: https://bootstrapmade.com/tour-bootstrap-travel-website-template/
+  * Updated: Jul 01 2025 with Bootstrap v5.3.7
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body class="destinations-page">
+
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div
+      class="header-container container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo.webp" alt=""> -->
+        <h1 class="sitename">DanyTours</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="about.html">Sobre Mí</a></li>
+          <li><a href="destinations.html" class="active">Destinos</a></li>
+          <li><a href="contact.html">Deja tu testimonio</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+      <a class="btn-getstarted" href="destinations.html">Explorar</a>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Page Title -->
+    <div class="page-title dark-background" data-aos="fade"
+      style="background-image: url(assets/img/Cataratas-del-Iguazú.webp);">
+      <div class="container position-relative">
+        <h1>Destinos</h1>
+        <p>Esto es el principio de tu aventura, puedes explorar aún más.</p>
+        <nav class="breadcrumbs">
+          <ol>
+            <li><a href="index.html">Inicio</a></li>
+            <li class="current">Destinos</li>
+          </ol>
+        </nav>
+      </div>
+    </div><!-- End Page Title -->
+
+    <!-- Travel Destinations Section -->
+    <section id="travel-destinations" class="travel-destinations section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row">
+          <div class="col-lg-8 mx-auto text-center">
+            <h2>Descubre los mejores destinos</h2>
+            <p class="mb-5">Explorá los lugares más impresionantes de Misiones y la región.</p>
+          </div>
+        </div>
+
+        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+          <ul class="destination-filters isotope-filters" data-aos="fade-up" data-aos-delay="200">
+            <li data-filter="*" class="filter-active">Todos los Destinos</li>
+            <li data-filter=".filter-tropical">Pto Iguazú</li>
+            <li data-filter=".filter-mountain">Misiones</li>
+            <li data-filter=".filter-urban">Ciudad del Este</li>
+            <li data-filter=".filter-historical">Brasil</li>
+          </ul>
+
+          <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="300">
+
+            <!-- PUERTO IGUAZÚ -->
+            <div class="col-lg-4 col-md-6 destination-item isotope-item filter-tropical">
+              <div class="destination-tile" style="cursor: default !important;">
+                <div class="tile-image">
+                  <img src="assets/img/cataratas-iguazu.webp" alt="Cataratas del Iguazú" class="img-fluid"
+                    loading="lazy">
+                  <div class="overlay-content">
+                    <span class="destination-tag luxury">Naturaleza</span>
+                    <div class="destination-info">
+                      <h4>Cataratas del Iguazú</h4>
+                      <p>Maravilla natural del mundo y orgullo argentino. Un espectáculo de agua, selva y energía.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 destination-item isotope-item filter-tropical">
+              <div class="destination-tile" style="cursor: default !important;">
+                <div class="tile-image">
+                  <img src="assets/img/Guiraoga.webp" alt="Güira Oga" class="img-fluid" loading="lazy">
+                  <div class="overlay-content">
+                    <span class="destination-tag nature">Rescate</span>
+                    <div class="destination-info">
+                      <h4>Güira Oga</h4>
+                      <p>Centro de rescate de fauna misionera. Ideal para conocer especies locales y su protección.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 destination-item isotope-item filter-tropical">
+              <div class="destination-tile" style="cursor: default !important;">
+                <div class="tile-image">
+                  <img src="assets/img/la-aripuca.webp" alt="La Aripuca" class="img-fluid" loading="lazy">
+                  <div class="overlay-content">
+                    <span class="destination-tag cultural">Cultura</span>
+                    <div class="destination-info">
+                      <h4>La Aripuca</h4>
+                      <p>Estructura gigante hecha con árboles recuperados. Una experiencia educativa y sustentable.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 destination-item isotope-item filter-tropical">
+              <div class="destination-tile" style="cursor: default !important;">
+                <div class="tile-image">
+                  <img src="assets/img/duty-free-shop-puerto.webp" alt="Duty Free Shop Iguazú" class="img-fluid"
+                    loading="lazy">
+                  <div class="overlay-content">
+                    <span class="destination-tag cultural">Compras</span>
+                    <div class="destination-info">
+                      <h4>Duty Free Shop Iguazú</h4>
+                      <p>Uno de los duty free más grandes de Sudamérica. Productos premium y ambiente moderno.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 destination-item isotope-item filter-tropical">
+              <div class="destination-tile" style="cursor: default !important;">
+                <div class="tile-image">
+                  <img src="assets/img/triple-frontier-psx-20191216-152954-large_standard.webp"
+                    alt="Hito Tres Fronteras" class="img-fluid" loading="lazy">
+                  <div class="overlay-content">
+                    <span class="destination-tag nature">Mirador</span>
+                    <div class="destination-info">
+                      <h4>Hito Tres Fronteras</h4>
+                      <p>Punto donde se unen Argentina, Brasil y Paraguay. Un clásico imperdible al atardecer.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 destination-item isotope-item filter-tropical">
+              <div class="destination-tile" style="cursor: default !important;">
+                <div class="tile-image">
+                  <img src="assets/img/ice-bar-iguazu.webp" alt="Ice Bar Iguazú" class="img-fluid" loading="lazy">
+                  <div class="overlay-content">
+                    <span class="destination-tag luxury">Diversión</span>
+                    <div class="destination-info">
+                      <h4>Ice Bar Iguazú</h4>
+                      <p>Bar hecho completamente de hielo, con bebidas frías y una experiencia única en la selva.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 destination-item isotope-item filter-tropical">
+              <div class="destination-tile" style="cursor: default !important;">
+                <div class="tile-image">
+                  <img src="assets/img/FlyPark.webp" alt="Fly Park" class="img-fluid" loading="lazy">
+                  <div class="overlay-content">
+                    <span class="destination-tag adventure">Aventura</span>
+                    <div class="destination-info">
+                      <h4>Fly Park</h4>
+                      <p>Parque de aventuras con tirolesas, puentes y desafíos en plena naturaleza misionera.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 destination-item isotope-item filter-tropical">
+              <div class="destination-tile" style="cursor: default !important;">
+                <div class="tile-image">
+                  <img src="assets/img/puerto-iguazu-05.webp" alt="Centro de Puerto Iguazú" class="img-fluid"
+                    loading="lazy">
+                  <div class="overlay-content">
+                    <span class="destination-tag nature">Ciudad</span>
+                    <div class="destination-info">
+                      <h4>Centro de Puerto Iguazú</h4>
+                      <p>Calles pintorescas, artesanías locales y una variada oferta gastronómica y cultural.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 destination-item isotope-item filter-tropical">
+              <div class="destination-tile" style="cursor: default !important;">
+                <div class="tile-image">
+                  <img src="assets/img/botella-4.webp" alt="Casa de las Botellas" class="img-fluid" loading="lazy">
+                  <div class="overlay-content">
+                    <span class="destination-tag luxury">Sustentable</span>
+                    <div class="destination-info">
+                      <h4>Casa de las Botellas</h4>
+                      <p>Construcción ecológica hecha con botellas recicladas. Inspiración para el turismo verde.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 destination-item isotope-item filter-tropical">
+              <div class="destination-tile" style="cursor: default !important;">
+                <div class="tile-image">
+                  <img src="assets/img/museo-de-la-selva.webp" alt="Museo de la Selva" class="img-fluid" loading="lazy">
+                  <div class="overlay-content">
+                    <span class="destination-tag cultural">Educativo</span>
+                    <div class="destination-info">
+                      <h4>Museo de la Selva</h4>
+                      <p>Exhibiciones sobre flora, fauna y cultura guaraní. Ideal para aprender y disfrutar en familia.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- MISIONES -->
+            <div class="col-lg-4 col-md-6 destination-item isotope-item filter-mountain">
+              <div class="destination-tile" style="cursor: default !important;">
+                <div class="tile-image">
+                  <img src="assets/img/minas-wanda.webp" alt="Minas de Wanda" class="img-fluid" loading="lazy">
+                  <div class="overlay-content">
+                    <span class="destination-tag nature">Turismo Minero</span>
+                    <div class="destination-info">
+                      <h4>Minas de Wanda</h4>
+                      <p>Minas de piedras preciosas donde podés ver amatistas, cuarzos y topacios en su entorno natural.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 destination-item isotope-item filter-mountain">
+              <div class="destination-tile" style="cursor: default !important;">
+                <div class="tile-image">
+                  <img src="assets/img/puerta-templo.webp" alt="Ruinas de San Ignacio" class="img-fluid" loading="lazy">
+                  <div class="overlay-content">
+                    <span class="destination-tag cultural">Histórico</span>
+                    <div class="destination-info">
+                      <h4>Ruinas de San Ignacio</h4>
+                      <p>Patrimonio Mundial UNESCO. Vestigios de la misión jesuítica con proyecciones nocturnas.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 destination-item isotope-item filter-mountain">
+              <div class="destination-tile" style="cursor: default !important;">
+                <div class="tile-image">
+                  <img src="assets/img/73-1_saltos-mocona-barco-2.webp" alt="Saltos del Moconá" class="img-fluid"
+                    loading="lazy">
+                  <div class="overlay-content">
+                    <span class="destination-tag nature">Aventura</span>
+                    <div class="destination-info">
+                      <h4>Saltos del Moconá</h4>
+                      <p>Un río que cae sobre sí mismo. Fenómeno único en el mundo, rodeado de selva virgen.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 destination-item isotope-item filter-mountain">
+              <div class="destination-tile" style="cursor: default !important;">
+                <div class="tile-image">
+                  <img src="assets/img/los-saltos-del-tabay.webp" alt="Saltos del Tabay" class="img-fluid"
+                    loading="lazy">
+                  <div class="overlay-content">
+                    <span class="destination-tag nature">Relax</span>
+                    <div class="destination-info">
+                      <h4>Saltos del Tabay</h4>
+                      <p>Balneario natural y parque municipal ideal para descansar y disfrutar del agua y el verde.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 destination-item isotope-item filter-mountain">
+              <div class="destination-tile" style="cursor: default !important;">
+                <div class="tile-image">
+                  <img src="assets/img/Jardin-Botanico_Mesa-de-trabajo-1-copia-56.webp" alt="Jardín Botánico Posadas"
+                    class="img-fluid" loading="lazy">
+                  <div class="overlay-content">
+                    <span class="destination-tag luxury">Naturaleza</span>
+                    <div class="destination-info">
+                      <h4>Jardín Botánico Posadas</h4>
+                      <p>Espacio verde con senderos, viveros y fauna local. Un pulmón natural en la capital misionera.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 destination-item isotope-item filter-mountain">
+              <div class="destination-tile" style="cursor: default !important;">
+                <div class="tile-image">
+                  <img src="assets/img/CRUZ.webp" alt="Cruz de Santa Ana" class="img-fluid" loading="lazy">
+                  <div class="overlay-content">
+                    <span class="destination-tag cultural">Mirador</span>
+                    <div class="destination-info">
+                      <h4>Cruz de Santa Ana</h4>
+                      <p>Imponente mirador con vistas panorámicas de la selva. Perfecto para fotos y contemplación.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- CIUDAD DEL ESTE -->
+            <div class="col-lg-4 col-md-6 destination-item isotope-item filter-urban">
+              <div class="destination-tile" style="cursor: default !important;">
+                <div class="tile-image">
+                  <img src="assets/img/Cuidad-del-este.webp" alt="Ciudad del Este" class="img-fluid" loading="lazy">
+                  <div class="overlay-content">
+                    <span class="destination-tag cultural">Compras</span>
+                    <div class="destination-info">
+                      <h4>Ciudad del Este</h4>
+                      <p>Destino ideal para compras. Amplia variedad de tiendas y centros comerciales internacionales.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 destination-item isotope-item filter-urban">
+              <div class="destination-tile" style="cursor: default !important;">
+                <div class="tile-image">
+                  <img src="assets/img/lago-Acaray.webp" alt="Lago Acaray" class="img-fluid" loading="lazy">
+                  <div class="overlay-content">
+                    <span class="destination-tag nature">Recreación</span>
+                    <div class="destination-info">
+                      <h4>Lago Acaray</h4>
+                      <p>Entorno tranquilo rodeado de naturaleza, ideal para paseos, deportes náuticos y relax.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 destination-item isotope-item filter-urban">
+              <div class="destination-tile" style="cursor: default !important;">
+                <div class="tile-image">
+                  <img src="assets/img/saltos-del-monday.jpg" alt="Saltos del Monday" class="img-fluid" loading="lazy">
+                  <div class="overlay-content">
+                    <span class="destination-tag adventure">Naturaleza</span>
+                    <div class="destination-info">
+                      <h4>Saltos del Monday</h4>
+                      <p>Imponentes cascadas de Paraguay con miradores y senderos. Naturaleza en su máxima expresión.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- BRASIL -->
+            <div class="col-lg-4 col-md-6 destination-item isotope-item filter-historical">
+              <div class="destination-tile" style="cursor: default !important;">
+                <div class="tile-image">
+                  <img src="assets/img/Parque-Das-Aves.webp" alt="Parque das Aves" class="img-fluid" loading="lazy">
+                  <div class="overlay-content">
+                    <span class="destination-tag nature">Fauna</span>
+                    <div class="destination-info">
+                      <h4>Parque das Aves</h4>
+                      <p>Refugio natural en Foz do Iguaçu donde podés acercarte a aves exóticas y coloridas.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 destination-item isotope-item filter-historical">
+              <div class="destination-tile" style="cursor: default !important;">
+                <div class="tile-image">
+                  <img src="assets/img/represa-itaipu.webp" alt="Represa de Itaipú" class="img-fluid" loading="lazy">
+                  <div class="overlay-content">
+                    <span class="destination-tag cultural">Energía</span>
+                    <div class="destination-info">
+                      <h4>Represa de Itaipú</h4>
+                      <p>Una de las hidroeléctricas más grandes del mundo. Potencia y tecnología en plena frontera.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 destination-item isotope-item filter-historical">
+              <div class="destination-tile" style="cursor: default !important;">
+                <div class="tile-image">
+                  <img src="assets/img/templo-budista.webp" alt="Templo Budista Foz do Iguaçu" class="img-fluid"
+                    loading="lazy">
+                  <div class="overlay-content">
+                    <span class="destination-tag nature">Cultura</span>
+                    <div class="destination-info">
+                      <h4>Templo Budista</h4>
+                      <p>Templo con estatuas doradas y vistas a la ciudad. Un sitio de paz y meditación.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 destination-item isotope-item filter-historical">
+              <div class="destination-tile" style="cursor: default !important;">
+                <div class="tile-image">
+                  <img src="assets/img/museo-dinosaurio.webp" alt="Museo del Dinosaurio" class="img-fluid"
+                    loading="lazy">
+                  <div class="overlay-content">
+                    <span class="destination-tag luxury">Diversión</span>
+                    <div class="destination-info">
+                      <h4>Museo del Dinosaurio</h4>
+                      <p>Exhibiciones de fósiles y réplicas de dinosaurios que permiten viajar al pasado prehistórico.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div><!-- End Destination Item -->
+
+        </div><!-- End Destinations Container -->
+
+      </div>
+
+      <div class="row mt-5">
+        <div class="col-lg-10 mx-auto text-center" data-aos="fade-up" data-aos-delay="400">
+          <div class="planning-assistance">
+            <div class="assistance-content">
+              <h3>Dejanos ayudarte a planificar tu viaje perfecto</h3>
+              <p>¿No sabés qué destino se ajusta a tus expectativas? Contactame y planifiquemos tu viaje.</p>
+              <div class="assistance-actions">
+                <a href="https://wa.me/5493757521161?text=¡Hola%20Daniel!%20Quisiera%20consultar%20sobre%20una%20planificación%20de%20viaje."
+                  class="btn btn-primary">Solicitar Asesoramiento Gratis</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      </div>
+
+    </section><!-- /Travel Destinations Section -->
+
+  </main>
+
+  <footer id="footer" class="footer position-relative dark-background">
+
+    <div class="footer-newsletter">
+      <div class="container">
+        <div class="row justify-content-center text-center">
+          <div class="col-lg-8">
+            <h4>¿Querés planificar tu próximo traslado?</h4>
+            <p>Consultá disponibilidad o tarifas directamente por WhatsApp. Daniel te responderá personalmente.</p>
+            <a href="https://wa.me/5493757521161?text=¡Hola%20 Daniel!%20👋%20Quisiera%20consultar%20sobre%20un%20traslado."
+              target="_blank" class="btn btn-success mt-3">
+              <i class="bi bi-whatsapp"></i> Enviar mensaje por WhatsApp
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container footer-top">
+      <div class="row gy-4">
+        <!-- Columna 1: Información de contacto -->
+        <div class="col-lg-4 col-md-6 footer-about">
+          <a href="index.html" class="d-flex align-items-center">
+            <span class="sitename">DanyTours</span>
+          </a>
+          <div class="footer-contact pt-3">
+            <p>Puerto Iguazú, Misiones - Argentina</p>
+            <p class="mt-3"><strong>Teléfono:</strong> <span>+54 9 3757 52-1161</span></p>
+            <p><strong>Email:</strong> <span>daniels5.db65@gmail.com</span></p>
+          </div>
+        </div>
+
+        <!-- Columna 2: Enlaces útiles -->
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Enlaces útiles</h4>
+          <ul>
+            <li><i class="bi bi-chevron-right"></i> <a href="index.html">Inicio</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#about">Sobre mí</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#services">Servicios</a></li>
+            <li><a href="contact.html">Deja tu testimonio</a></li>
+          </ul>
+        </div>
+
+        <!-- Columna 3: Servicios -->
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Servicios</h4>
+          <ul>
+            <li><i class="bi bi-chevron-right"></i> <a>Traslados al aeropuerto</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a>Traslados a hoteles</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a>Recorridos turísticos</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a>Viajes personalizados</a></li>
+          </ul>
+        </div>
+
+        <!-- Columna 4: Redes sociales -->
+        <div class="col-lg-4 col-md-12">
+          <h4>Atención Personalizada</h4>
+          <p>En <strong>DanyTours</strong>, cada viaje se coordina directamente conmigo.
+            Te ofrezco puntualidad, comodidad y la tranquilidad de viajar con un conductor de confianza.</p>
+
+        </div>
+
+
+      </div>
+    </div>
+
+    <div class="container copyright text-center mt-4">
+      <p>© <span>2025</span> <strong class="px-1 sitename">DanyTours</strong> <span>Todos los derechos
+          reservados</span></p>
+      <div class="credits">
+        Diseñado por <a href="https://mateorojas.com.ar/">Mateo Rojas</a>
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
